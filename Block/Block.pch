@@ -1,0 +1,18 @@
+//
+//  Block.pch
+//  Block
+//
+//  Created by Jame on 15/5/25.
+//  Copyright (c) 2015年 SSIC. All rights reserved.
+//
+
+#ifndef Block_Block_pch
+#define Block_Block_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define ECSCREEN_W     [[UIScreen mainScreen] bounds].size.width
+#define ECSCREEN_H     [[UIScreen mainScreen] bounds].size.height
+#define ECSREEN     [[UIScreen mainScreen] bounds]
+
+#endif
